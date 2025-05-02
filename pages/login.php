@@ -8,6 +8,7 @@
     $login = $_COOKIE["login"];
     if (in_array($login, $mockUsersNames)) {
         header("Location: index.php?page=home");
+        exit;
     }
 
 

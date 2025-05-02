@@ -1,7 +1,8 @@
 <body class="bg-slate-950 text-white">
     <header class="fixed top-0 left-0 w-full z-50 bg-slate-900 p-4 flex justify-between items-center">
         <h1 class="font-bold text-5xl text-amber-500">GameView</h1>
-        <a href="index.php?page=config" class="bg-slate-800 p-2 rounded-full">
+        <a href="index.php?page=config"
+            class="bg-slate-800 p-2 rounded-full hover:p-[10px] hover:bg-slate-850 transition-all">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-amber-500" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2">
                 <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5z" />

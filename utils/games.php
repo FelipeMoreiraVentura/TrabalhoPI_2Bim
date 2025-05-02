@@ -108,4 +108,21 @@ function getGame($id)
     return $selectGame;
 }
 
+function getFavoriteList()
+{
+    global $games;
+    $favoriteList = json_decode($_COOKIE["favoriteList"], true);
+
+    $gamesList = [];
+    foreach ($favoriteList as $favorite) {
+        foreach ($games as $game) {
+            if ($favorite == $game["id"]) {
+                $gamesList[] = $game;
+            }
+        }
+    }
+
+    return $gamesList;
+}
+
 ?>
