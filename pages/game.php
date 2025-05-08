@@ -66,11 +66,14 @@
 
                 ?>
             </div>
-            <?php
-            echo '
+            <div class="w-full flex flex-col justify-center items-center gap-4 mt-10">
+                <?php
+                echo '
                 <img class="h-96 w-96" src="' . $game["img"] . '" alt="">
-                <p>' . $game["description"] . '</p>'
-                ?>
+                <p class="whitespace-pre-line p-4 bg-slate-800 rounded-lg">' . $game["description"] . '</p>'
+                    ?>
+            </div>
+
         </div>
     </div>
 </body>
