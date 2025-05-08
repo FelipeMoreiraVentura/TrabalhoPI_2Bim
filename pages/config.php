@@ -22,6 +22,13 @@
         </a>
     </header>
     <div class="mt-20 p-5 border rounded-lg border-blue-500 h-full">
+        <a href="javascript:history.back()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" stroke="white" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <line x1="19" y1="12" x2="5" y2="12" />
+                <polyline points="12 19 5 12 12 5" />
+            </svg>
+        </a>
         <h1 class="text-3xl font-bold text-blue-500">Games Favoritos</h1>
         <div class="flex flex-wrap">
             <?php

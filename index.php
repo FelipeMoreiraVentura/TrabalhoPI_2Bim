@@ -33,6 +33,9 @@ switch ($page) {
     case "config":
         include "pages/config.php";
         break;
+    default:
+        include 'pages/404.php';
+        break;
 }
 ?>
 
